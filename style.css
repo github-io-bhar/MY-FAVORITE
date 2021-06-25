@@ -23,7 +23,9 @@ body {
 }
 
 img {
-    width: 400px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
 }
 
 h1 {
@@ -32,7 +34,8 @@ h1 {
 }
 
 h2 {
-    font-size: 30px
+    font-size: 30px;
+    color: black;
 }
 
 #section2 {
@@ -48,15 +51,14 @@ h2 {
     float: right;
     top: 10px;
     right: 30px;
-    cursor: pointer;
     color: black;
+    cursor: pointer;
     text-align: center;
 }
 
 ul {
     margin: 0;
     padding: 0;
-    background-color: #333;
 }
 
 li {
@@ -65,7 +67,7 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: red;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -84,4 +86,13 @@ li a:hover {
     padding-bottom: 5px;
     font-family: fantasy;
     font-size: 20px;
+}
+
+h3 {
+    font-size: 30px;
+    color: black;
+}
+
+h4 {
+    font-size: 30px;
 }
