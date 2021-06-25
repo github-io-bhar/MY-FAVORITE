@@ -22,7 +22,7 @@ body {
     z-index: 9;
 }
 
-img {
+.profile {
     width: 200px;
     height: 200px;
     border-radius: 100px;
@@ -38,11 +38,12 @@ h2 {
     color: black;
 }
 
-#section2 {
+#hobby {
     padding: 20px;
     font-size: 20px;
     text-align: center;
     background-color: aqua;
+    margin: 0px;
 }
 
 .menu {
@@ -96,3 +97,23 @@ h3 {
 h4 {
     font-size: 30px;
 }
+p {
+    font-size: 25px;
+}
+
+#about {
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    background-color: cadetblue;
+    margin: 0px;
+}
+
+#history {
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    background-color: cornflowerblue;
+    margin: 0px;
+}
+
