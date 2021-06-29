@@ -97,6 +97,7 @@ h3 {
 h4 {
     font-size: 30px;
 }
+
 p {
     font-size: 25px;
 }
@@ -119,4 +120,29 @@ p {
 
 html {
     scroll-behavior: smooth;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+a img {
+    height: 300px;
+    width: 300px;
+    margin: 100px;
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+    border-radius: 10px;
+}
+
+a img:hover {
+    transform: scale(0.9);
+}
+
+#inspiration {
+    background-color: darkorange;
+    margin: 0px;
 }
