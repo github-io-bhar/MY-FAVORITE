@@ -60,10 +60,11 @@ h2 {
 ul {
     margin: 0;
     padding: 0;
+    border-bottom: 1px solid #000;
 }
 
 li {
-    float: left;
+    display: inline-block;
 }
 
 li a {
@@ -144,5 +145,65 @@ a img:hover {
 
 #inspiration {
     background-color: darkorange;
-    margin: 0px;
+    top: 0%;
 }
+
+.menu {
+    position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    right: 0px;
+    z-index: 10;
+    text-align: center;
+}
+
+.link {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+li {
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+#contact {
+    background-color: darksalmon;
+}
+
+#li1 {
+    background-color: darkblue;
+}
+
+#li2 {
+    background-color: aqua;
+}
+
+#li3 {
+    background-color: cadetblue;
+}
+
+#li4 {
+    background-color: cornflowerblue;
+}
+
+#li5 {
+    background-color: darkorange;
+}
+
+#li6 {
+    background-color: darksalmon;
+}
+
+
+
+
